@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@300&display=swap');
+
+
+main{
+    padding: 20px;
+    background-color: #000;
+}
+.hero-board{
+    background-color: #fff;
+    font-family: 'Anek Odia', sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: fit-content;
+}
+
+/*///////////////////////////////HIDE ME //////////////////////////////////////*/
+#hideMe {
+    -moz-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 2s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
